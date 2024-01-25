@@ -7,7 +7,7 @@
 </head>
 <body>
     <style>
-        ul{
+               .first{
             display: flex;
             justify-content: space-evenly;
             list-style: none;
@@ -160,6 +160,7 @@
             display: flex;
             justify-content:space-around;
             padding: 50px;
+            list-style: none;
         }
         .Foot{
             display:flex;
@@ -178,6 +179,7 @@
             padding: 100px;
             gap:30px;
             align-items: center;
+            padding-left: 400px;
             
         }
         .S{
@@ -194,10 +196,65 @@
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
             font-weight: lighter;
         }
+        .foot{
+           
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+         
+            background-color: lightsteelblue;
+
+        }
+        .space{
+            margin-top: 10px;
+        }
+        .row{
+           display: flex;
+           flex-wrap: wrap;
+           justify-content: space-evenly;
+           padding-left: 500px;
+          
+          
+
+
+        }
+        .fc h3{
+          font-family: monospace;
+          color: blue;
+        }
+        .ele{
+            text-decoration: none;
+            list-style: none;
+            text-align:start;
+            margin-top: 15px;
+            color:rgb(109, 33, 80);
+            font-weight:lighter;
+        }
+        .Sen{
+            color: lightslategrey;
+            font-size: 20px;
+        }
+        #Top{
+            font-size: 30px;
+        }
+        .P2{
+            display: flex;
+            justify-content:space-around;
+            padding: 20px;
+            align-items: flex-start;
+        }
+        .Op h3{
+            padding-right: 290px;
+            font-size: 13px;
+            color: darkcyan;
+            
+        }
+        
+
         
     </style>
     <nav>
-        <ul>
+        <ul class="first">
             <li ><a class="sites" href="http://127.0.0.1:5500/PTProject1%20(1).html">Features</a></li>
             <li><a class="sites"href="#">Pricing</a></li>
             <li ><a class="sites" href="#">Testimonials</a></li>
@@ -225,7 +282,7 @@
         <p class="P">Trusted by <strong>100,000+ customers</strong> in 90+ countries</p>
     </div>
     <nav>
-        <ul>
+        <ul class="first">
             <li><img width="135px" src="Image/Capgemini_logo-removebg-preview.png"></li>
             <li><img width="95px"  src="Image/YamahaLogo-removebg-preview.png"></li>
             <li style="margin-bottom: 40px;"><img width="65px"  src="Biocon-Logo.wine-removebg-preview.png"></li>
@@ -243,7 +300,8 @@
     <br>
 
 <div class="Op">
-    <br><br><br><br><br><h6 class="Pr"><strong>OUR PROMISE</strong></h6></div>
+    <h3>Our Promise</h3>
+    <br><br><br><br><br><h6 class="Pr"><strong></strong></h6></div>
 <div>
     <ul class="P2">
        <div class="Te"><li><div id="Tp">Tool<strong> built for people.</strong></div><br>
@@ -269,22 +327,61 @@
         <div id="g6"><img width="100px" src="Image/img6.png"><p class="sne">Top performer spring <br>2021</p></div>
 
 </div>
-<hr>
+
 <div class="GT">
     <p class="de"><strong>BUILT FOR PEOPLE</strong></p>
 </div>
 <div>
     <p class="Part"><strong>Easy </strong>for beginners.<strong>Powerful</strong> for experts.</p>
 </div>
-<hr>
+
 <div>
     <ul class="P2">
-       <div class="Text-Align"><li><div id="Top">Looking for a <strong>solution</strong><br>for your business?</div><br>
-        <div class="Sen">Check out Sogolytics enterprise feedback and<br>experience management platform.<br><br></div>
-        <br><div class="Start">Learn more</div></div>
-        <div><li><img width="80%" style="padding-left: 50px;" src="Image/Laptop.avif"></li></div>
-    </ul>
+        <div><li><div id="Top">Tool<strong> built for people.</strong> </div><br>
+         <div class="Sen">Whether you want to edit your Google Docs,<br>resolve Jira issues,or collabrate over Zoom.<br><br></div>
+         <div class="Sen">Circle has 100+ integrations with tools you <br>already use and love.</li><br><div class="Start">Get Started free</div></div>
+         <div><li><img width="150%" src="Image/meetingImage.jpeg"</li></div>
+     </ul>
 </div>
-<hr>
+
+<footer class="foot">
+    <div class="cont">
+    <div class="row">
+        <div class="fc">
+            <h3>Products</h3>
+            <ul class="ele">
+                <li class="space">Delta</li>
+                <li class="space">Sigma</li>
+                <li class="space">Zeta</li>
+                <li class="space">Alpha</li>
+                <li class="space">Acumen</li>
+            </ul>
+        </div>
+        <div class="fc">
+            <h3>Resources</h3>
+            <ul class="ele">
+                <li class="space">Help</li>
+                <li class="space">Training Videos</li>
+                <li class="space">Webinars</li>
+                <li class="space">Request a Demo</li>
+                <li class="space">Create Surveys</li>
+                <li class="space">Quiz Maker</li>
+            </ul>
+        </div>
+        <div class="fc">
+            <h3>Company</h3>
+            <ul class="ele">
+                <li class="space">About Us</li>
+                <li class="space">Careers</li>
+                <li class="space">Team</li>
+                <li class="space">Contact Us</li>
+    
+            </ul>
+        </div>
+    </div>
+    <hr>
+    </div>
+
+</footer>
 </body>
 </html>
