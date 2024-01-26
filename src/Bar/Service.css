@@ -1,0 +1,25 @@
+.ser{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    margin: 20px;
+    margin-top: 10px;
+    justify-content: center;
+    
+  
+    
+}
+.fl{
+    display: flex;
+    justify-content: center;
+}
+.si{
+    
+    padding: 15px;;
+    width: 100px;
+    height: 20px;
+    background-color: lightsalmon;
+    text-align:center;
+    border-radius: 20px;
+    color:black;
+}

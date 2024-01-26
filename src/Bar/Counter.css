@@ -1,0 +1,7 @@
+.child{
+    align-content: center;
+}
+.parent{
+    background-color: aqua;
+    width: fit-content;
+}
